@@ -1,0 +1,8 @@
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android">
+<checkBoxPreference  
+android:key=“mypreference_checkbox"
+android:title="Checkbox"
+android:defaultValue=“false" 
+android:summary="Change The CheckBox Status here, it will be saved in Preference"/>
+</PreferenceScreen>
