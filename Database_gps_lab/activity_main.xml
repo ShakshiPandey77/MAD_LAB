@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Deprecated">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="20dp"
+        android:text="Faculty Details"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="147dp"
+        android:text="Enter Id :"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="178dp"
+        android:layout_y="137dp"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="210dp"
+        android:text="Enter Address :"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/Insert"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="342dp"
+        android:text="Insert"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_x="194dp"
+        android:layout_y="362dp"
+        android:text="Delete"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="452dp"
+        android:text="View"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/get_location"
+        android:layout_width="135dp"
+        android:layout_height="69dp"
+        android:layout_x="208dp"
+        android:layout_y="447dp"
+        android:text="Get Location" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="201dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+</AbsoluteLayout>
