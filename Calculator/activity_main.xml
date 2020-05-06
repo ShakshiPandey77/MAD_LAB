@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="291dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:hint="Number 1"
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:hint="Number 2"
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="Result"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rowCount="2"
+        app:columnCount="2">
+
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/add"
+            android:layout_marginLeft="65dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD" />
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/sub"
+            android:layout_marginLeft="65dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUB" />
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/mul"
+            android:layout_marginLeft="65dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUL" />
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/div"
+            android:layout_marginLeft="65dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIV" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:id="@+id/write"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_columnSpan="2"
+            android:text="WRITE"
+            android:visibility="invisible"/>
+    </androidx.gridlayout.widget.GridLayout>
+</LinearLayout>
